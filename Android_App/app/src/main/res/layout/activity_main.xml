@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.widget.RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:text="@string/bienvenu_au_centre_dentaire_de_haute_technologie" />
+
+        <android.widget.RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:id="@+id/lbl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:text="@string/pour_prendre_un_rendez_vous_veuillez_remplir_le_formulaire_d_inscription"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_createAccount"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lbl1"
+                android:layout_gravity="center"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="10dp"
+                android:onClick="goToFormulaire"
+                android:text="@string/formulaire"
+                tools:ignore="OnClick" />
+
+        </android.widget.RelativeLayout>
+
+    </android.widget.RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
