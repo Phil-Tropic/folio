@@ -1,0 +1,383 @@
+﻿body {
+    width: 75%;
+    margin: auto;
+    background-image: url('../images/1.jpg');
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    max-height: 70vh;
+}
+
+#search {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+#searchLeft {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#searchRight {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+    margin-top: 10px;
+
+}
+
+#iconsearch {
+    color: white;
+    height: 200%;
+}
+
+#divcentre {
+    height: 160vh;
+    background-color: antiquewhite;
+}
+
+.card {
+    display: inline-block;
+    width: 25%;
+    margin-left: 62px;
+    margin-top: -50px;
+}
+.card img {
+height: 300px;
+}
+
+.card-header {
+    color: orange;
+    border-top: 10px solid orange;
+}
+
+.carousel-indicators {
+    margin-bottom: 50px;
+}
+
+.carousel-content {
+    position: absolute;
+    text-align: center;
+    bottom: 73%;
+    left: 30%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+
+#bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+#section {
+    width: 900px;
+    padding: 0px;
+}
+
+.tests {
+    padding: 0px;
+}
+
+#titre {
+    font-size: 200%;
+    padding: 10px;
+}
+
+#planete {
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+#bandeTitre {
+    padding: 0px;
+    color: white;
+    background-color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 70px;
+}
+
+#btnRecherche {
+    float: right;
+    margin-top: 7%;
+    background-color: #282829;
+    color: white;
+    font-size: 7px;
+    padding: 10px;
+    border: 1px solid white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#btnRecherche:hover {
+        background-color: white;
+        color: #282829;
+    }
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+.navbar {
+    background-color: lightgrey;
+    padding: 0px;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 0 10px 0 black;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+a {
+    display: block;
+    color: darkgray;
+    text-align: center;
+    margin-left: 25px;
+    text-decoration: none;
+}
+a:hover {
+        background-color: navajowhite;
+    }
+
+.carousel {
+    max-height: 600px;
+    max-width: inherit;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+#image1 {
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.carousel-indicators {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    bottom: 70px;
+    margin-left: 400px;
+}
+
+.carousel-indicators .active {
+     background-color: orange;
+    }
+
+#carouselExampleIndicators {
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+#imgContain {
+    padding: 0px;
+}
+
+#blockText1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+
+#titrePrincipal {
+    font-weight: bolder;
+    font-size: 500%;
+}
+
+#soustitrePrincipal {
+    font-size: 250%;
+}
+
+
+.btn-warning .btn {
+    background-color: #b85600;
+    float: right;
+    margin: 20px;
+    color: white;
+}
+
+.cartes {
+    padding: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    max-width: 29%;
+    color: orange;
+}
+
+.card {
+    margin-top: -35px;
+}
+
+.rowCartes {
+    background-color: #f7e9c1;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 1%;
+    padding-right: 1%;
+    align-content: center;
+}
+
+#rowNav {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.card-header {
+    background-color: white;
+    border-top: 10px;
+    border-top-color: #b85600;
+    border-top-style: solid;
+    height: 70px;
+}
+
+.carousel .item {
+    height: 700px;
+}
+
+#containerContact {
+    background-color: #f8f9fa;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#btnSend {
+    float: left;
+    color: white;
+    background-color: #b85600;
+}
+
+#btnClear {
+    margin-left: 20px;
+    color: white;
+    background-color: #b85600;
+}
+
+#btnPrev {
+    margin-left: 20px;
+    color: white;
+    background-color: #b85600;
+}
+
+#btnNext {
+    margin-left: 20px;
+    color: white;
+    background-color: #b85600;
+}
+
+#boutonsRow {
+    margin: 0px;
+}
+
+#containerContact {
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    color: darkgrey;
+    font-size: small;
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.form-control {
+    color: darkgrey;
+}
+
+#iconhome {
+    color: darkorange;
+}
+
+#iconphone {
+    color: darkorange;
+}
+
+#iconFax {
+    color: darkorange;
+}
+
+#iconEmail {
+    color: darkorange;
+}
+
+#vcardLink {
+    color: darkorange;
+    margin-left: 2px;
+    margin-top: -3px;
+}
+
+
+#formMessagerie {
+    margin-top: 100px;
+}
+
+#divAddImgAndUpdatePosition {
+    margin-top: 100px;
+}
+
+#divAddVoyage {
+    margin-top: 100px;
+}
+
+#divSelectVoyage {
+    margin-top: 100px;
+}
+
+#btnUpload {
+    display: block;
+    margin-top: 10px;
+}
+
+.addvoyage {
+    display: block;
+    margin: 10px
+}
+
+#divLogin {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#divPassword {
+    margin-top: 30px;
+}
+
+#lblUsername {
+    display: block;
+}
+
+#lblPassword {
+    display: block;
+}
+
+#btnLogin {
+    margin-top: 50px;
+    width: 150px;
+}

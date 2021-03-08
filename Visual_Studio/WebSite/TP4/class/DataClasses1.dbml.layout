@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="c8e87e69-6151-43ae-b724-bebc792975da" absoluteBounds="2, 3.625, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataClasses1DataContext/user" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0bcb3094-d416-4a12-8fa9-2d4bca2917b8" absoluteBounds="2.015, 4.085, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b3488afd-408d-4e8d-89a6-ba2905ab5ca3" absoluteBounds="3.625, 1.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DataClasses1DataContext/messagerie" />
+      <nestedChildShapes>
+        <elementListCompartment Id="223ded4a-f995-4717-847f-328621f2189a" absoluteBounds="3.6399999999999997, 1.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2a15d724-b57f-4b20-993f-3baa194bc7d5" absoluteBounds="1.625, 1.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DataClasses1DataContext/cardInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="97a0111e-0493-40bb-bff8-b38e4f0b286f" absoluteBounds="1.6400000000000001, 2.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ffae02fd-2001-4e59-9979-453108d9ebff" absoluteBounds="8.25, 2.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataClasses1DataContext/image" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d3c1e454-3c94-4086-b928-b8592990820b" absoluteBounds="8.265, 2.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
